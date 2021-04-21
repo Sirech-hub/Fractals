@@ -5,9 +5,9 @@ pygame.init()
 win = pygame.display.set_mode((600, 600))
 pygame.display.set_caption("triangle")
 
-# вершины треугольника
+
 Triangle = [[300, 50], [100, 550], [500, 550]]
-# начальная точка
+
 x, y = random.randint(0, 600), random.randint(0, 600)
 
 RUN = True
